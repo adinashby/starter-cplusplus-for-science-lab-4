@@ -8,3 +8,6 @@ test: a.out
 
 clean:
 	rm a.out
+
+specific_test: a.out
+	./a.out $(test)
